@@ -11,7 +11,7 @@ import SwiftUI
 struct CETACApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            loginView()
         }
     }
 }

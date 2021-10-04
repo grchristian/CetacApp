@@ -8,23 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		AA45F6B827065EC1001CD7DE /* CETACApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45F6B727065EC1001CD7DE /* CETACApp.swift */; };
-		AA45F6BA27065EC1001CD7DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45F6B927065EC1001CD7DE /* ContentView.swift */; };
 		AA45F6BC27065EC9001CD7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA45F6BB27065EC9001CD7DE /* Assets.xcassets */; };
 		AA45F6BF27065EC9001CD7DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA45F6BE27065EC9001CD7DE /* Preview Assets.xcassets */; };
 		AA45F6CA27065F2C001CD7DE /* splashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45F6C927065F2C001CD7DE /* splashView.swift */; };
-		AA45F6CC27065F63001CD7DE /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45F6CB27065F63001CD7DE /* mainView.swift */; };
 		AA45F6CE27065FBC001CD7DE /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45F6CD27065FBC001CD7DE /* loginView.swift */; };
+		AAE274C3270B4E1B00CC1717 /* listaUsuariosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE274C2270B4E1B00CC1717 /* listaUsuariosView.swift */; };
+		AAE274C5270B5C8700CC1717 /* inicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE274C4270B5C8700CC1717 /* inicioView.swift */; };
+		AAE274CB270B6B9000CC1717 /* conoceCetacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE274CA270B6B9000CC1717 /* conoceCetacView.swift */; };
+		AAE274CD270B6BFF00CC1717 /* listaTanatologosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE274CC270B6BFF00CC1717 /* listaTanatologosView.swift */; };
+		AAE274D1270B6CB200CC1717 /* listaReportesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE274D0270B6CB200CC1717 /* listaReportesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA45F6B427065EC1001CD7DE /* CETAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CETAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA45F6B727065EC1001CD7DE /* CETACApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CETACApp.swift; sourceTree = "<group>"; };
-		AA45F6B927065EC1001CD7DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA45F6BB27065EC9001CD7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA45F6BE27065EC9001CD7DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA45F6C927065F2C001CD7DE /* splashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashView.swift; sourceTree = "<group>"; };
-		AA45F6CB27065F63001CD7DE /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
 		AA45F6CD27065FBC001CD7DE /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		AAE274C2270B4E1B00CC1717 /* listaUsuariosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaUsuariosView.swift; sourceTree = "<group>"; };
+		AAE274C4270B5C8700CC1717 /* inicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inicioView.swift; sourceTree = "<group>"; };
+		AAE274CA270B6B9000CC1717 /* conoceCetacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conoceCetacView.swift; sourceTree = "<group>"; };
+		AAE274CC270B6BFF00CC1717 /* listaTanatologosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaTanatologosView.swift; sourceTree = "<group>"; };
+		AAE274D0270B6CB200CC1717 /* listaReportesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaReportesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,6 @@
 			children = (
 				AA45F6C527065EEE001CD7DE /* pantallas */,
 				AA45F6B727065EC1001CD7DE /* CETACApp.swift */,
-				AA45F6B927065EC1001CD7DE /* ContentView.swift */,
 				AA45F6BB27065EC9001CD7DE /* Assets.xcassets */,
 				AA45F6BD27065EC9001CD7DE /* Preview Content */,
 			);
@@ -77,12 +82,14 @@
 		AA45F6C527065EEE001CD7DE /* pantallas */ = {
 			isa = PBXGroup;
 			children = (
+				AAE274CE270B6C9000CC1717 /* reportes */,
 				AA45F6C827065F15001CD7DE /* sesion */,
 				AA45F6C727065F01001CD7DE /* tanatologo */,
 				AA45F6C627065EF7001CD7DE /* usuario */,
 				AA45F6C927065F2C001CD7DE /* splashView.swift */,
-				AA45F6CB27065F63001CD7DE /* mainView.swift */,
+				AAE274C4270B5C8700CC1717 /* inicioView.swift */,
 				AA45F6CD27065FBC001CD7DE /* loginView.swift */,
+				AAE274CA270B6B9000CC1717 /* conoceCetacView.swift */,
 			);
 			path = pantallas;
 			sourceTree = "<group>";
@@ -90,6 +97,7 @@
 		AA45F6C627065EF7001CD7DE /* usuario */ = {
 			isa = PBXGroup;
 			children = (
+				AAE274C2270B4E1B00CC1717 /* listaUsuariosView.swift */,
 			);
 			path = usuario;
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 		AA45F6C727065F01001CD7DE /* tanatologo */ = {
 			isa = PBXGroup;
 			children = (
+				AAE274CC270B6BFF00CC1717 /* listaTanatologosView.swift */,
 			);
 			path = tanatologo;
 			sourceTree = "<group>";
@@ -106,6 +115,14 @@
 			children = (
 			);
 			path = sesion;
+			sourceTree = "<group>";
+		};
+		AAE274CE270B6C9000CC1717 /* reportes */ = {
+			isa = PBXGroup;
+			children = (
+				AAE274D0270B6CB200CC1717 /* listaReportesView.swift */,
+			);
+			path = reportes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,10 +196,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA45F6CA27065F2C001CD7DE /* splashView.swift in Sources */,
-				AA45F6CC27065F63001CD7DE /* mainView.swift in Sources */,
 				AA45F6CE27065FBC001CD7DE /* loginView.swift in Sources */,
-				AA45F6BA27065EC1001CD7DE /* ContentView.swift in Sources */,
+				AAE274C3270B4E1B00CC1717 /* listaUsuariosView.swift in Sources */,
+				AAE274CD270B6BFF00CC1717 /* listaTanatologosView.swift in Sources */,
 				AA45F6B827065EC1001CD7DE /* CETACApp.swift in Sources */,
+				AAE274CB270B6B9000CC1717 /* conoceCetacView.swift in Sources */,
+				AAE274D1270B6CB200CC1717 /* listaReportesView.swift in Sources */,
+				AAE274C5270B5C8700CC1717 /* inicioView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +341,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +371,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
