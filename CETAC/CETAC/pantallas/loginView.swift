@@ -23,13 +23,21 @@ struct loginView: View {
                     TextField("Usuario", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                     TextField("Contraseña", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                 }
+                
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("Iniciar sesión")
-                    }
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(.green)
+                        .cornerRadius(40)
+                }
+                
                 Spacer()
+                
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("Conoce CETAC")
-                    }
+                        .foregroundColor(.black)
+                }
             }
         }
     }
