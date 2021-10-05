@@ -17,15 +17,37 @@ struct loginView: View {
                 Spacer()
                 Image("logo")
                     .resizable()
-                    .padding(.horizontal, 50.0)
+                    .padding(.horizontal, 55.0)
                     .scaledToFit()
-                VStack {
-                    TextField("Usuario", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                    TextField("Contraseña", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                
+                Spacer()
+                    .frame(height: 50)
+                
+                VStack(alignment: .leading) {
+                    Text("Usuario")
+                        .font(Font.custom("helvetica-light", size: 30))
+
+                    TextField("", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                        .font(Font.custom("helvetica-light", size: 20))
+                        .border(/*@START_MENU_TOKEN@*/Color(hue: 0.572, saturation: 0.963, brightness: 0.789)/*@END_MENU_TOKEN@*/, width: 0.3)
+
+                    
+                    Text("Contraseña")
+                        .font(Font.custom("helvetica-light", size: 30))
+
+                    TextField("", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                        .font(Font.custom("helvetica-light", size: 20))
+                        .border(/*@START_MENU_TOKEN@*/Color(hue: 0.572, saturation: 0.963, brightness: 0.789)/*@END_MENU_TOKEN@*/, width: 0.3)
+
                 }
+                .padding(.horizontal, 40.0)
+                
+                Spacer()
+                    .frame(height: 50)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("Iniciar sesión")
+                        .font(Font.custom("helvetica", size: 20))
                         .padding()
                         .foregroundColor(.white)
                         .background(.green)
