@@ -9,35 +9,35 @@ import SwiftUI
 
 struct loginView: View {
     var body: some View {
-        NavigationView {
+        ZStack {
+            Color(red: 0.964, green: 0.972, blue: 0.972)
+                .ignoresSafeArea()
+            
             VStack {
-                
                 Spacer()
-                
+                Image("logo")
+                    .resizable()
+                    .padding(.horizontal, 50.0)
+                    .scaledToFit()
                 VStack {
-                    Text("CETAPP")
                     TextField("Usuario", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                     TextField("Contraseña", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                 }
-                
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("Iniciar sesión")
-                }
-                
+                    }
                 Spacer()
-                
-                NavigationLink(destination: conoceCetacView()) {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("Conoce CETAC")
-                }
+                    }
             }
-            
         }
-            
     }
 }
 
 struct loginView_Previews: PreviewProvider {
     static var previews: some View {
         loginView()
+.previewInterfaceOrientation(.portrait)
     }
 }
