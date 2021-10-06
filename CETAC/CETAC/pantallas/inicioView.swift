@@ -25,7 +25,7 @@ struct inicioView: View {
                     Label("Reportes", systemImage: "waveform.path.ecg.rectangle")
                 }
             
-            splashView()
+            listaReportesView()
                 .tabItem {
                     Label("Ajustes", systemImage: "gear")
                 }
