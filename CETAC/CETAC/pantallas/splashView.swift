@@ -9,28 +9,25 @@ import SwiftUI
 
 struct splashView: View {
     var body: some View {
-        ZStack {
-            Color(red: 0.643, green: 0.941, blue: 1)
-                .ignoresSafeArea()
+        VStack{
+            Spacer()
+            Image("logo")
+                .resizable()
+                .padding(.horizontal,30.0)
+                .scaledToFit()
+            Text("Reconocer, comprender y apreciar las emociones y los sentimientos de los demás")
+                .font(Font.custom("helvetica-light", size: 22))
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 42)
             
-            VStack{
-                Spacer()
-                
-                Image("logo")
-                    .resizable()
-                    .padding(.horizontal,30.0)
-                    .scaledToFit()
-                
-                Text("Reconocer, comprender y apreciar las emociones y los sentimientos de los demás")
-                    .font(Font.custom("helvetica-light", size: 22))
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 42)
-                
-                Spacer()
-            }
+            Spacer()
         }
+        .background(
+            LinearGradient(gradient: Gradient(colors: [Color(red: 189/255, green: 235/255, blue: 255/255),Color(red: 189/255, green: 235/255, blue: 255/255)]), startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all))
     }
 }
+
 
 struct splashView_Previews: PreviewProvider {
     static var previews: some View {

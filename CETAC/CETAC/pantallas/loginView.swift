@@ -1,73 +1,68 @@
-//
-//  loginView.swift
-//  CETAC
-//
-//  Created by Christian González on 30/09/21.
-//
-
 import SwiftUI
 
 struct loginView: View {
+    @State private var email = ""
+    @State private var password = ""
+    
+    // MARK: - View
     var body: some View {
-        ZStack {
-            Color(red: 0.964, green: 0.972, blue: 0.972)
-                .ignoresSafeArea()
+        VStack() {
+            Spacer()
             
-            VStack {
-                Spacer()
-                Image("logo")
-                    .resizable()
-                    .padding(.horizontal, 55.0)
-                    .scaledToFit()
+            Image("logo")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 260, height: 230)
+                .shadow(radius: 10.0, x: 20, y: 10)
+                .padding(.bottom, 50)
+            
+            VStack(alignment: .leading, spacing: 15) {
+                TextField("Usuario", text: self.$email)
+                    .padding()
+                    .background(Color.themeTextField)
+                    .cornerRadius(20.0)
+                    .shadow(radius: 10.0, x: 20, y: 10)
                 
-                Spacer()
-                    .frame(height: 50)
-                
-                VStack(alignment: .leading) {
-                    Text("Usuario")
-                        .font(Font.custom("helvetica-light", size: 30))
-
-                    TextField("", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                        .font(Font.custom("helvetica-light", size: 20))
-                        .border(/*@START_MENU_TOKEN@*/Color(hue: 0.572, saturation: 0.963, brightness: 0.789)/*@END_MENU_TOKEN@*/, width: 0.3)
-
-                    
-                    Text("Contraseña")
-                        .font(Font.custom("helvetica-light", size: 30))
-
-                    TextField("", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                        .font(Font.custom("helvetica-light", size: 20))
-                        .border(/*@START_MENU_TOKEN@*/Color(hue: 0.572, saturation: 0.963, brightness: 0.789)/*@END_MENU_TOKEN@*/, width: 0.3)
-
-                }
-                .padding(.horizontal, 40.0)
-                
-                Spacer()
-                    .frame(height: 50)
-                
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Iniciar sesión")
-                        .font(Font.custom("helvetica", size: 20))
-                        .padding()
-                        .foregroundColor(.white)
-                        .background(.green)
-                        .cornerRadius(40)
-                }
-                
-                Spacer()
-                
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                SecureField("Contraseña", text: self.$password)
+                    .padding()
+                    .background(Color.themeTextField)
+                    .cornerRadius(20.0)
+                    .shadow(radius: 10.0, x: 20, y: 10)
+            }.padding([.leading, .trailing], 27.5)
+            
+            Button(action: {}) {
+                Text("Iniciar sesión")
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .frame(width: 300, height: 50)
+                    .background(Color.green)
+                    .cornerRadius(15.0)
+                    .shadow(radius: 10.0, x: 20, y: 10)
+            }.padding(.top, 50)
+            
+            Spacer()
+            HStack(spacing: 0) {
+                Button(action: {}) {
                     Text("Conoce CETAC")
                         .foregroundColor(.black)
                 }
             }
         }
+        .background(
+            LinearGradient(gradient: Gradient(colors: [Color(red: 0.950, green: 1, blue: 1),Color(red: 0.999, green: 1, blue: 1)]), startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all))
+    }
+}
+
+extension Color {
+    static var themeTextField: Color {
+        return Color(red: 220.0/255.0, green: 230.0/255.0, blue: 230.0/255.0, opacity: 1.0)
     }
 }
 
 struct loginView_Previews: PreviewProvider {
     static var previews: some View {
         loginView()
-.previewInterfaceOrientation(.portrait)
     }
 }
