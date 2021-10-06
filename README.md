@@ -23,9 +23,7 @@
 
 <br>
 
-Vapor is an HTTP web framework for Swift. It provides a beautifully expressive and easy-to-use foundation for your next website, API, or cloud project.
-
-Take a look at some of the [awesome stuff](https://github.com/Cellane/awesome-vapor) created with Vapor.
+Actualmente el uso de teléfonos inteligentes ha permitido que se agilicen una gran cantidad de operaciones a través del uso de apps. Cualquier usuario y negocio se pueden beneficiar mutuamente si se crea una app que les provea servicio a ambos.
 
 ### 💧 Notas
 
