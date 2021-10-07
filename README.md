@@ -8,7 +8,7 @@
 
 <p align="center">
 	<a href="https://drive.google.com/drive/folders/1pEm840WSkTF1aCQPSIZ8OZ3XMkkbB5z2?usp=sharing">
-        <img src="https://img.shields.io/badge/semanales_semanales-yellow">
+        <img src="https://img.shields.io/badge/reportes_semanales-yellow">
     </a>
     <a href="https://github.com/grchristian/retoequipo1/tree/main/Documentaci%C3%B3n">
         <img src="https://img.shields.io/badge/documentaci%C3%B3n-blue">
