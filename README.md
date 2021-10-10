@@ -7,10 +7,13 @@
 <br>
 
 <p align="center">
-	<a href="https://drive.google.com/drive/folders/1pEm840WSkTF1aCQPSIZ8OZ3XMkkbB5z2?usp=sharing">
+	<a href="https://drive.google.com/drive/folders/1C12AVsWnzVFj_MC5_0XjS7sA2t6ot2dU?usp=sharing">
         <img src="https://img.shields.io/badge/reportes_semanales-yellow">
     </a>
-    <a href="https://github.com/grchristian/retoequipo1/tree/main/Documentaci%C3%B3n">
+    <a href=https://drive.google.com/drive/folders/1kb-FONCg1Ya6TQwT4XnYItqTdftnECGf?usp=sharing>
+        <img src="https://img.shields.io/badge/sesiones_semanales-green">
+    </a>
+    <a href="https://drive.google.com/drive/folders/1E9G7MCh_syApP_Q6aqHE3XnOp0SnL1p1?usp=sharing">
         <img src="https://img.shields.io/badge/documentaci%C3%B3n-blue">
     </a>
     <a href="https://sharing.clickup.com/b/h/7-14112947-2/16eec74bc102ca0">
@@ -22,6 +25,8 @@
 </p>
 
 <br>
+
+_El proyecto de Xcode de GitHub no está actualizado, la última versión está en Drive_
 
 Actualmente el uso de teléfonos inteligentes ha permitido que se agilicen una gran cantidad de operaciones a través del uso de apps. Cualquier usuario y negocio se pueden beneficiar mutuamente si se crea una app que les provea servicio a ambos.
 
