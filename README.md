@@ -10,9 +10,6 @@
 	<a href="https://drive.google.com/drive/folders/1C12AVsWnzVFj_MC5_0XjS7sA2t6ot2dU?usp=sharing">
         <img src="https://img.shields.io/badge/reportes_semanales-yellow">
     </a>
-    <a href=https://drive.google.com/drive/folders/1kb-FONCg1Ya6TQwT4XnYItqTdftnECGf?usp=sharing>
-        <img src="https://img.shields.io/badge/sesiones_semanales-green">
-    </a>
     <a href="https://drive.google.com/drive/folders/1E9G7MCh_syApP_Q6aqHE3XnOp0SnL1p1?usp=sharing">
         <img src="https://img.shields.io/badge/documentaci%C3%B3n-blue">
     </a>
