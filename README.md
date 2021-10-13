@@ -23,20 +23,18 @@
 
 <br>
 
-_El proyecto de Xcode de GitHub no está actualizado, la última versión está en Drive_
+### 🏨 CETAC
 
-Actualmente el uso de teléfonos inteligentes ha permitido que se agilicen una gran cantidad de operaciones a través del uso de apps. Cualquier usuario y negocio se pueden beneficiar mutuamente si se crea una app que les provea servicio a ambos.
+CETAC es una organización que ayuda a personas que estén en una situación de crisis o pérdida. El trabajo de CETAC es acompañar, guiar y darle un servicio que los apoye a reencontrar el sentido en su vida. La organización busca una aplicación que ayude a los tanatólogos para manejar este servicio con sus clientes.
 
-### 💧 Notas
+### 📱 Proyecto
 
-Actualizar documentación PMO constantemente.
+Con el proyecto CETAC App se busca analizar, diseñar e implementar una aplicación móvil que permite ver la información general de la asociación CETAC y dar seguimiento a las sesiones de los usuarios que son atendidos en esta misma.
 
-### 🚀 Proyecto
+Mediante la aplicación, los tanatólogos tendrán la capacidad de abrir expedientes de usuarios, generar bitácoras por sesiones atendidas, ver el historial de las sesiones, dar de alta a los pacientes. y visualizar gráficas con la información recabada.
 
-App programada en swift para CETAC.
+### 👨‍💻 Desarrolladores
 
-### 💛 Desarrolladores
-
-* Alejandro Hernández - [werunthenite](https://github.com/werunthenite)
-* Marco Bosquez - [MarcoBosglez](https://github.com/MarcoBosglez)
-* Christian González - [christiangr](https://github.com/grchristian)
+- Alejandro Hernández - [werunthenite](https://github.com/werunthenite)
+- Marco Bosquez - [MarcoBosglez](https://github.com/MarcoBosglez)
+- Christian González - [christiangr](https://github.com/grchristian)
