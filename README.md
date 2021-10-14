@@ -1,12 +1,9 @@
-<div id="logo" style="text-align:center">
-    <a href="https://www.cetac.mx/">
-        <img src="assets/logo.png">
-    </a>
-</div>
-
-<br>
-
 <p align="center">
+    <a href="https://www.cetac.mx/">
+        <img src="assets/logo.png" width="453" height="274">
+    </a>
+    <br>
+    <br>
 	<a href="https://drive.google.com/drive/folders/1C12AVsWnzVFj_MC5_0XjS7sA2t6ot2dU?usp=sharing">
         <img src="https://img.shields.io/badge/reportes_semanales-yellow">
     </a>
