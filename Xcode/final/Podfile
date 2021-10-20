@@ -1,0 +1,8 @@
+platform :ios, '14.0'
+
+target 'CetacApp' do
+  use_frameworks!
+  pod 'ConcentricOnboarding'
+
+end
+
